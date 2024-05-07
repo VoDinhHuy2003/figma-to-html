@@ -105,14 +105,14 @@ a {
     position: relative;
 }
 
-.nav li.active a,
+.nav li a.active,
 .nav a:hover {
     color: #171100;
     /* font-weight: 600; */
     text-shadow: 1px 0 0 currentColor;
 }
 
-.nav li.active a::after {
+.nav li a.active::after {
     content: "";
     position: absolute;
     left: 21px;
